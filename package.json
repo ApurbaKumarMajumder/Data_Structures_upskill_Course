@@ -1,0 +1,8 @@
+{
+  "name": "Real_Time_Pizza_Project",
+  "version": "1.0.0",
+  "description": "This is our real time pizza web app",
+  "main": "index.js",
+  "author": "Apurba Kumar Majumder",
+  "license": "MIT"
+}
