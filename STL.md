@@ -57,3 +57,17 @@ They point to memory address of containers.
 * begin(), end()
 * vector<int>::iterator it;
 * continuity for containers
+
+<h1 align="center">
+Algorithms
+</h1>
+
+* min & max
+* sort (comparator)
+* reverse
+* count
+* find
+* upper_bound
+* lower_bound
+* next_permutations
+* prev_permutation
