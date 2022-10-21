@@ -9,3 +9,27 @@ STL
 * Iterators
 * Algorithms
 * Functions
+
+<h1 align="center">
+Containers
+</h1>
+
+### Sequential
+
+* vectors
+* stacks
+* queues
+* priority-queue
+* pairs (not a container)
+
+### Ordered
+
+* sets
+* multiset
+* map
+* multimap
+
+### Unordered
+
+* unordered - set
+* unordered - map
