@@ -1,7 +1,18 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-int main() {
+void printVec(vector<int> a)
+{
+    cout << "Size: " << a.size() << endl;
+    for (int i = 0; i < a.size(); i++)
+    {
+        cout << a[i] << " ";
+    }
+    cout << endl;
+}
+
+int main()
+{
 
     // Pairs
     /*
@@ -43,11 +54,31 @@ int main() {
     {
         cout << "Yes" << endl;
     }
-    
+
     if (p == u)
     cout << "they are equal" << endl;
     */
 
     // Vectors
-     
+
+    int a[5];      // array initialiazition
+    vector<int> v; // vector initialization
+
+    // v.push_back(2);
+    // v.push_back(4);
+    // v.push_back(8);
+
+    cout << "Enter size of vector " << "\n";
+    int n;
+    cin >> n;
+
+    for (int i = 0; i < n; i++)
+    {
+        printVec(v);
+        int x;
+        cin >> x;
+        v.push_back(x);
+    }
+
+    printVec(v);
 }
