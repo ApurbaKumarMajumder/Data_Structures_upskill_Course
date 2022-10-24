@@ -11,8 +11,10 @@ void printVec(vector<int> a)
     cout << endl;
 }
 
-int main() {
+int main()
+{
 
+    /*
     // vector<int> v{1, 2, 3, 4, 5, 6};
     // printVec(v);
 
@@ -41,4 +43,33 @@ int main() {
     }
 
     // (*it).first <=> it -> first
+    */
+
+    int a = 9;
+    auto b = 9;
+    auto c = 9.5;
+
+    vector<int> v{1, 2, 3, 4, 5};
+    printVec(v);
+
+    // cout << v.size() << endl; // size
+    // v.push_back(8); // O(1)
+    // v.pop_back(); // O(1)
+    // v.begin();
+    // v.end();
+    // v.front();
+    // v.end();
+
+    v.resize(3);
+    printVec(v);
+
+    // return 0 if vector is empty else return 1
+    int ans = v.empty(); // O(1)
+    cout << ans << endl;
+
+    // v.clear();
+    // printVec(v);
+
+    v.emplace(v.begin(), 7);
+    printVec(v);
 }
