@@ -11,6 +11,8 @@ int main() {
 
     if (n <= 1) {
         cout << "Provide a valid number" << endl;
+
+        
     }
 
     for (int i = 2; i < n; i++) {
